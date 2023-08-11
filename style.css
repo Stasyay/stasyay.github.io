@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.center__main{
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+/* section header */
+.container__header {
+    background-color: #222;
+}
+
+.flex__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    align-items: baseline;
+    gap: 41px;
+}
+
+.header__right{
+    display: flex;
+    align-items: baseline;
+    gap: 22px;
+    align-items: center;
+}
+
+/* section main */
+.h1__main {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.h2__main {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container__main {
+    background-color: #F1E4E6;
+}
+
+.flex__main{
+    display: flex;
+    align-items: center;
+}
+
+.main__right {
+    display: flex;
+    gap: 16px;
+}
+
+/* section offers */
+.offer__item {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.offer__item__title {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.choice__offer {
+    margin-top: 65px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+} 
+
+.offer_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 260px;
+}
+
+.offer_img:hover{
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.choice__offer__down {
+    width: 1140px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice__offer__down:hover{
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+/* <section products header */
+.products__title {
+    margin-top: 96px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.products__h2 {
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.products__text {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+/* section product button */
+
+.items_name {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.items_description {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;    
+}
+
+.items_price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.items_up {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+.product__button {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;    
+}
+
+.items_about {
+    display: flex;
+    width: 360px;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #F8F8F8;
+}
+
+.items_up:hover {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+/* section browse */
+
+.browse__text {
+    margin-top: 48px;
+    margin-bottom: 95px;
+    color: #F26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 40px;
+    border: 1px solid #F26376; 
+    background-color: #fff;  
+}
+
+.browse__text:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #F26376;
+}
+
+.button__browse{
+    display: flex;
+    justify-content: center;
+    
+}
