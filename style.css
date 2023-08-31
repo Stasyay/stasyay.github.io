@@ -48,6 +48,7 @@ a {
 
 /* section main */
 .h1__main {
+    font-family: Lato;
     color: #222;
     font-size: 48px;
     font-style: normal;
@@ -149,6 +150,7 @@ a {
 }
 
 .products__h2 {
+    font-family: Lato;
     color: #222;
     font-size: 30px;
     font-style: normal;
@@ -157,6 +159,7 @@ a {
 }
 
 .products__text {
+    font-family: Lato;
     color: #9F9F9F;
     font-size: 14px;
     font-style: normal;
